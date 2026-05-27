@@ -25,6 +25,22 @@ skills install AlveusLabs/bitsota-agent-skills \
 
 If your agent expects a local skills directory, copy `skills/sn94-competition-poster` into that directory.
 
+## Submit A Competition Proposal
+
+Submit the finished output as a GitHub issue in:
+
+```text
+https://github.com/AlveusLabs/SN94-BitSota/issues/new
+```
+
+Issue title:
+
+```text
+[Competition Proposal] <problem name>
+```
+
+Include the filled proposal template and a link to the public task repo.
+
 ## Publish Notes
 
 Do not add secrets, mnemonics, wallet files, API tokens, production env files, or private validation datasets to this repository.

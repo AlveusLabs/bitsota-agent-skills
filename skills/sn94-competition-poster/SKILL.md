@@ -16,6 +16,7 @@ Use this skill to turn any measurable competition idea into a concrete SN94 task
 3. Keep the validator generic. Put problem-specific scoring, datasets, and harness code in the public task repo. Hidden eval handles may come from the backend at replay time.
 4. Enforce narrow patch surfaces. Submissions must patch only allowed files, with no bytecode, cache files, generated artifacts, model blobs, wallet files, secrets, or repo-wide rewrites.
 5. Produce a poster-facing problem brief, an agent-facing implementation prompt, and an operator launch checklist.
+6. Tell the poster to submit the finished proposal as a GitHub issue in `AlveusLabs/SN94-BitSota` with title `[Competition Proposal] <problem name>`, including the public task repo link.
 
 ## When Creating A Task Repo
 
@@ -40,6 +41,7 @@ python scripts/create_competition_repo.py \
 - Public smoke tests exist, but release gating requires full local and testnet E2E replay.
 - Hidden validation can rotate by backend-provided env or manifest without changing the public repo.
 - The proposal states whether rewards are winner-take-all, pooled frontier, or another explicit policy.
+- The final answer includes the submission target: `https://github.com/AlveusLabs/SN94-BitSota/issues/new`.
 
 ## References
 

@@ -4,6 +4,29 @@ SN94 task repos are problem-agnostic. A task can be model compression, binary/te
 
 The only requirement is that validators can replay a miner submission from a clean clone and produce a deterministic result JSON.
 
+## Where To Submit
+
+Submit the finished proposal as a GitHub issue in:
+
+```text
+https://github.com/AlveusLabs/SN94-BitSota/issues/new
+```
+
+Use this issue title:
+
+```text
+[Competition Proposal] <problem name>
+```
+
+Include:
+
+- the filled proposal template
+- the public task repo URL
+- the pinned commit, tag, or branch intended as `base_ref`
+- any expected hardware requirements
+- the scoring and reward policy
+- known risks or special engineering requirements
+
 ## Required Shape
 
 ```text
@@ -76,4 +99,3 @@ For pooled tasks, define dedupe per task. Repeated equivalent outputs from many 
 - Compiler pass or graph optimization.
 - Data-structure or retrieval improvement.
 - CPU-friendly problems for non-GPU miners.
-
