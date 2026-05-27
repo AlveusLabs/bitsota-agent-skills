@@ -30,7 +30,7 @@ If your agent expects a local skills directory, copy `skills/sn94-competition-po
 Submit the finished output as a GitHub issue in:
 
 ```text
-https://github.com/AlveusLabs/SN94-BitSota/issues/new
+https://github.com/AlveusLabs/SN94-BitSota/issues/new?template=competition_proposal.md
 ```
 
 Issue title:

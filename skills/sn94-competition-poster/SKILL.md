@@ -41,7 +41,7 @@ python scripts/create_competition_repo.py \
 - Public smoke tests exist, but release gating requires full local and testnet E2E replay.
 - Hidden validation can rotate by backend-provided env or manifest without changing the public repo.
 - The proposal states whether rewards are winner-take-all, pooled frontier, or another explicit policy.
-- The final answer includes the submission target: `https://github.com/AlveusLabs/SN94-BitSota/issues/new`.
+- The final answer includes the submission target: `https://github.com/AlveusLabs/SN94-BitSota/issues/new?template=competition_proposal.md`.
 
 ## References
 

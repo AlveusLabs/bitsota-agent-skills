@@ -9,7 +9,7 @@ The only requirement is that validators can replay a miner submission from a cle
 Submit the finished proposal as a GitHub issue in:
 
 ```text
-https://github.com/AlveusLabs/SN94-BitSota/issues/new
+https://github.com/AlveusLabs/SN94-BitSota/issues/new?template=competition_proposal.md
 ```
 
 Use this issue title:
